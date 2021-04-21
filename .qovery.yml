@@ -1,0 +1,11 @@
+---
+application:
+  name: "xporx"
+  project: "Asdf"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-xporx"
+  routes:
+  - application_name: "xporx"
+    paths:
+    - "/*"
